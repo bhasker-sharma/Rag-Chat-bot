@@ -1,0 +1,20 @@
+# Web API
+fastapi
+uvicorn[standard]
+
+# Config / secrets (.env file)
+python-dotenv
+
+# OpenAI: embeddings, chat answers, image descriptions
+openai
+
+# Vector database (stores embeddings locally in a folder)
+chromadb
+
+# PDF reading: PyMuPDF for text + images, pymupdf4llm turns pages (incl. tables) into Markdown
+pymupdf
+pymupdf4llm
+pdfplumber
+
+# Counting tokens so chunks are a sensible size
+tiktoken

@@ -1,0 +1,14 @@
+# Secrets
+.env
+
+# Python
+server/env/
+__pycache__/
+*.pyc
+
+# Generated data (rebuilt by the ingest script)
+server/storage/
+
+# Node / React
+client/node_modules/
+client/dist/
